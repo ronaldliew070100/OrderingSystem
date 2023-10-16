@@ -1,0 +1,20 @@
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "hero hero hero"
+    "sidebar content content";
+  gap: 10px;
+  padding: 10px;
+}
+
+.hero {
+  grid-area: hero;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.content {
+  grid-area: content;
+}
